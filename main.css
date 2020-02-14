@@ -38,7 +38,6 @@ header li {
 .nav-item.dropdown {
     font-size: 20px;
     color: #6c757d;
-    -decoration: none;
 }
 
 .nav-item.dropdown:hover {
