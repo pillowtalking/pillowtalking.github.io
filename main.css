@@ -24,7 +24,6 @@ header .row img {
 header nav {
   display: flex;
   justify-content: flex-end;
-  outline: 1px dotted red;
 }
 
 header ul {
@@ -36,13 +35,24 @@ header li {
   float: left;
 }
 
-#submenu {
-    display: none;
-    float: right;
+.nav-item.dropdown {
+    font-size: 20px;
+    color: #6c757d;
+    -decoration: none;
 }
 
-#menu:hover #submenu {
-    display: block;
+.nav-item.dropdown:hover {
+    color: black;
+}
+
+
+.nav-link {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: black;
 }
 
 .jumbotron {
@@ -84,18 +94,30 @@ section .row img {
   height: 100px;
 }
 
-.row.text-block {
+.nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
 .btn.btn-primary {
+    position: relative;
+    left: 30px;
+    width: 100px;
+    height: 40px;
   border-radius: 2px;
   border: 0px;
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
-    position: relative
-    left: 10px;
+  display: block;
+}
+
+.body-menu{
+    color: #6c757d;
+}
+
+.body-menu:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .btn.btn-primary:hover {
