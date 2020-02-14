@@ -1,0 +1,149 @@
+body {
+    font-family: nanumgothic, sans-serif;
+    height: 100%;
+    margin: 0
+}body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header .row img {
+  width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    margin-left: 25px;
+    float: left;
+}
+
+.nav-item.dropdown {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.nav-item.dropdown:hover {
+    color: black;
+}
+
+
+.nav-link {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://pillowtalking.github.io/image/sewing-machine-262454_1920.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.information {
+    position: relative;
+    top: 15px;
+}
+
+.container p {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.headline {
+    position: relative;
+    left: 30px;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.btn.btn-primary {
+    position: relative;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #ffffff;
+    display: block;
+}
+
+.body-menu{
+    color: #6c757d;
+}
+
+#info {
+    color: black;
+}
+
+.body-menu:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+}
+
+.btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
