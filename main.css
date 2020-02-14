@@ -84,13 +84,16 @@ section .row img {
   height: 100px;
 }
 
+.row.text-block {
+    display: block;
+}
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
-  display: block;
 }
 
 .btn.btn-primary:hover {
