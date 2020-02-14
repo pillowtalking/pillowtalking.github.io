@@ -94,6 +94,8 @@ section .row img {
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
+    position: relative
+    left: 10px;
 }
 
 .btn.btn-primary:hover {
